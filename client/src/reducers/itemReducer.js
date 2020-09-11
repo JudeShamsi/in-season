@@ -1,9 +1,10 @@
 import { v1 as uuid } from 'uuid';
+import { GET_ITEMS } from './actions/types';
 
 const initialState = {
     items: [
         {
-            "_id": "5f5325d0ceceb9573e914a52",
+            "_id": uuid(),
             "Type": "Vegetable",
             "Name": "Brussel Sprouts",
             "January": "N",
@@ -20,7 +21,7 @@ const initialState = {
             "December": "Y"
         },
         {
-            "_id": "5f5325d0ceceb9573e914a61",
+            "_id": uuid(),
             "Type": "Vegetable",
             "Name": "Mushroom",
             "January": "Y",
@@ -37,4 +38,15 @@ const initialState = {
             "December": "Y"
         }
     ]
+}
+
+export default function(state = initialState, action){
+    switch(action.type) {
+        case GET_ITEMS:
+            return {
+                ... state
+            }
+        default:
+            return state
+    }
 }
