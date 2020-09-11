@@ -1,0 +1,129 @@
+﻿Type,Name,January,February,March,April,May,June,July,August,September,October,November,December
+Vegetable,Artichokes,N,N,N,N,N,N,N,Y,Y,Y,N,N
+Vegetable,Asparagus,N,N,N,N,Y,Y,N,N,N,N,N,N
+Vegetable,Beans (Fresh),N,N,N,N,N,N,Y,Y,Y,N,N,N
+Vegetable,Beans (Dried),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Beets,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Broccoli,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Brussel Sprouts,N,N,N,N,N,N,N,N,Y,Y,Y,Y
+Vegetable,Cabbage-Green & Red,N,N,N,N,N,N,N,N,Y,Y,Y,N
+Vegetable,Cabbage-Savoy & Red,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y
+Vegetable,Carrots,Y,N,N,N,N,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Cauliflower,N,N,N,N,N,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Celery,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N
+Vegetable,Chard-Swiss,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N
+Vegetable,Corn,N,N,N,N,N,N,Y,Y,Y,Y,N,N
+Vegetable,Cucumbers,N,N,N,N,N,N,Y,Y,Y,N,N,N
+Vegetable,Fennel (Bulb),N,N,N,N,N,Y,Y,Y,Y,Y,N,N
+Vegetable,Garlic (Fresh),N,N,N,N,N,Y,Y,Y,Y,Y,N,N
+Vegetable,Garlic (Dried),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Kale,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Leeks,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y
+Vegetable,Lettuce,N,N,N,N,N,N,Y,Y,Y,Y,Y,N
+Vegetable,Mushroom,Y,Y,Y,N,N,N,N,N,N,N,Y,Y
+Vegetable,Mustard Greens,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N
+Vegetable,Onions-Green,N,N,N,N,Y,Y,Y,Y,Y,N,N,N
+Vegetable,Onions-Red/Yellow,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y
+Vegetable,Parsnips,Y,Y,N,N,N,N,N,Y,Y,Y,Y,Y
+Vegetable,Peas,N,N,N,N,Y,Y,Y,N,N,N,N,N
+Vegetable,Peppers,N,N,N,N,,N,Y,Y,Y,Y,N,N
+Vegetable,Potatoes - New,N,N,N,N,Y,Y,Y,N,N,N,N,N
+Vegetable,"Potatoes - Red, Russet, Yellow",N,N,N,N,N,N,Y,Y,Y,Y,Y,Y
+Vegetable,Potatoes - White,N,N,N,N,N,N,Y,Y,Y,Y,Y,Y
+Vegetable,Pumpkin,N,N,N,N,N,N,N,N,Y,Y,Y,N
+Vegetable,Radishes,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Vegetable,Rhubard-Field,N,N,N,Y,Y,Y,Y,N,N,N,N,N
+Vegetable,Rutabagas,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+Vegetable,Salad Greens,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+Vegetable,Shallots,N,N,N,N,N,N,N,Y,N,N,N,N
+Vegetable,Spinach,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Vegetable,Squash-Summer,N,N,N,N,N,Y,Y,Y,N,N,N,N
+Vegetable,Squash-Winter,N,N,N,N,N,N,N,N,Y,Y,Y,Y
+Vegetable,Tomatoes,N,N,N,N,N,Y,Y,Y,Y,Y,N,N
+Vegetable,Turnips-White,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y
+Vegetable,Zucchini,N,N,N,N,N,Y,Y,Y,Y,Y,N,N
+Fruit,Apples,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,Y
+Fruit,Apricots,N,N,N,N,N,N,Y,Y,N,N,N,N
+Fruit,Blackberries,N,N,N,N,N,N,Y,Y,N,N,N,N
+Fruit,Blueberries,N,N,N,N,N,N,N,Y,Y,N,N,N
+Fruit,Cherries (pie),N,N,N,N,N,N,Y,Y,N,N,N,N
+Fruit,Crab Apples,N,N,N,N,N,N,N,Y,Y,Y,N,N
+Fruit,Cranberries,N,N,N,N,N,N,N,N,Y,Y,N,N
+Fruit,Currants,N,N,N,N,N,N,Y,N,N,N,N,N
+Fruit,Gooseberries,N,N,N,N,N,Y,Y,N,N,N,N,N
+Fruit,Grapes,N,N,N,N,N,N,N,N,Y,N,N,N
+Fruit,Kiwi,Y,N,N,N,N,N,N,N,N,Y,Y,Y
+Fruit,Melons,N,N,N,N,N,N,N,Y,Y,N,N,N
+Fruit,Nectarines,N,N,N,N,N,N,Y,Y,N,N,N,N
+Fruit,Peaches,N,N,N,N,N,N,N,Y,N,N,N,N
+Fruit,Pears,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+Fruit,Plums,N,N,N,N,N,N,N,Y,Y,N,N,N
+Fruit,Prunes,N,N,N,N,N,N,N,Y,Y,N,N,N
+Fruit,Quince,N,N,N,N,N,N,N,N,N,Y,Y,N
+Fruit,Raspberries,N,N,N,N,N,N,Y,Y,N,N,N,N
+Fruit,Rhubard - Field,N,N,N,Y,Y,Y,Y,Y,N,N,N,N
+Fruit,Saskatoon Berries,N,N,N,N,N,Y,Y,N,N,N,N,N
+Fruit,Strawberries,N,N,N,N,N,Y,Y,Y,Y,N,N,N
+Seafood,Clams,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Cod: Pacific,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Crab,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Crab: Dungeness,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Flouwer/Sole: Pacific,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Halibut: Pacific,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Seafood,Herring,N,N,Y,Y,N,N,N,N,N,N,N,N
+Seafood,Lingcod,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+Seafood,Mussels,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Oysters: Pacific,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Prawns: Jumbo,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Prawns: Spot,N,N,N,N,Y,Y,Y,N,N,N,N,N
+Seafood,Sablefish (Black Cod),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Salmon: Chinook/King/Spring,N,N,N,N,N,Y,Y,Y,Y,Y,N,N
+Seafood,Salmon: Chum,N,N,N,N,N,N,Y,Y,Y,Y,N,N
+Seafood,Salmon: Coho (Northern),N,N,N,N,N,N,Y,Y,Y,N,N,N
+Seafood,Salmon: Pink,N,N,N,N,N,Y,Y,Y,Y,N,N,N
+Seafood,Salmon: Sockeye,N,N,N,N,N,Y,Y,Y,N,N,N,N
+Seafood,Sardines: Pacific,N,N,N,N,N,N,N,N,Y,Y,N,N
+Seafood,Scallops,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Shrimp: Side Stripe,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Shrimp: West Coast,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Seafood,Spring Dogfish,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N
+Seafood,Tuna: Albacore,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N
+Herbs,Bay Leaves,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Herbs,Basils,N,N,N,N,N,Y,Y,Y,Y,Y,N,N
+Herbs,Chives,N,N,N,Y,Y,Y,Y,Y,Y,N,N,N
+Herbs,Chives - garlic,N,N,Y,Y,Y,Y,Y,Y,Y,N,N,N
+Herbs,Chervil,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y
+Herbs,Cilantro,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Herbs,Dill-leaf,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+Herbs,Dill-seed,N,N,N,N,N,N,N,Y,Y,Y,N,N
+Herbs,Epazote,N,N,N,N,N,Y,Y,Y,Y,Y,N,N
+Herbs,Fennel-leaf,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+Herbs,Fennel-seed,N,N,N,N,N,N,N,Y,Y,N,N,N
+Herbs,Lavendar,N,N,N,N,N,Y,Y,Y,N,N,N,N
+Herbs,Lemon Grass,N,N,N,N,N,N,Y,Y,Y,N,N,N
+Herbs,Lemon verbana,N,N,N,N,N,Y,Y,Y,Y,Y,Y,N
+Herbs,Marjoram - sweet,N,N,N,N,N,N,Y,Y,Y,Y,N,N
+Herbs,Mints,N,N,N,N,Y,Y,Y,Y,Y,Y,Y,N
+Herbs,Oreganoes,N,N,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+Herbs,Parsleys,N,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+Herbs,Rosemarys,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Herbs,Sages,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Herbs,Savory - summer,N,N,N,N,N,N,Y,Y,Y,Y,N,N
+Herbs,Savory - winter,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Herbs,Shiso,N,N,N,N,N,N,Y,Y,Y,Y,Y,N
+Herbs,Sorrel,N,N,Y,Y,Y,Y,N,N,Y,Y,Y,N
+Herbs,Tarragon - french,N,N,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Herbs,Thymes,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Dairy Products,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Eggs,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Beef,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Buffalo,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Chicken,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Duck,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Goat,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Lamb,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Ostrich,N,N,N,N,Y,Y,Y,Y,Y,Y,N,N
+Meat & Dairy,Pheasant,Y,N,N,N,N,N,N,N,N,Y,Y,Y
+Meat & Dairy,Pork,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Rabbit,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+Meat & Dairy,Turkey,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
