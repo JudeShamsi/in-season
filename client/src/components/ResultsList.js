@@ -4,17 +4,37 @@
  import { v1 as uuid } from 'uuid';
  import { connect } from 'react-redux';
  import { getItems } from '../actions/itemActions';
+ import  PropTypes from 'prop-types';
 
  class ResultsList extends Component {
+
+    componentDidMount() {
+        this.props.getItems();
+    }
     
     render() {
-        const { items } = this.state;
+        const { items } = this.props.item;
         return(
             <Container>
-                <h1>Hi</h1>
+                <ListGroup>
+                    {items.map(({Type, Name}) => (
+                        <ListGroupItem>
+                            Type: {Type}, Name: {Name}
+                        </ListGroupItem>
+                    ))}
+                </ListGroup>
             </Container>
         )
     }
  }
 
- export default ResultsList;
+ ResultsList.propTypes = {
+     getItems: PropTypes.func.isRequired,
+     item: PropTypes.object.isRequired
+ }
+
+const mapStateToProps = (state) => ({
+    item: state.item
+});
+
+ export default connect(mapStateToProps, { getItems })(ResultsList);
