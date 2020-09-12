@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText, Col, Container } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, FormText, Col, Container, ListGroup, ListGroupItem} from 'reactstrap';
 import { connect } from 'react-redux';
 import { getItems } from '../actions/itemActions';
 import  PropTypes from 'prop-types';
@@ -82,16 +82,18 @@ class AppForm extends Component {
                 </Col>
                 </Container>
             </Form>
-            
-            <div>
-            {hasSelected ? (selectedItems.length ? (selectedItems.map(item => (
-                    <div key={item._id}>
-                        {item.Type}: {item.Name}    
+            <Container>
+                <Col>
+                    <div>
+                        {hasSelected ? (selectedItems.length ? (selectedItems.map(item => (
+                            <ListGroupItem key={item._id}>
+                                {item.Name}    
+                            </ListGroupItem>
+                        ))) : <div>No Matching Items</div>
+                    ) : null}
                     </div>
-                ))) : <div>No Matching Items</div>
-            ) : null}
-            </div>
-
+                </Col>
+            </Container>
         </div>
         )
     }
@@ -108,6 +110,7 @@ function mapStateToProps(state){
        item: state.item
    };
 };
+
 
 function matchDispatchToProps(dispatch){
     return bindActionCreators({getItems: getItems}, dispatch);

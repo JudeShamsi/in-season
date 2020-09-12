@@ -8,7 +8,7 @@ const initialState = {
             _id : uuid(),
             Type: "Vegetable",
             Name : "Brussel Sprouts",
-            January : "N",
+            January : "Y",
             February: "N",
             March: "N",
             April: "N",
