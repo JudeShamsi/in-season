@@ -1,14 +1,28 @@
-import { GET_ITEMS } from './types';
+import axios from 'axios';
+import { GET_ITEMS, ITEMS_LOADING } from './types';
 
 // action creater
-export const getItems = (Type, Month) => {
+export const getItems = (type, month) => dispatch => {
     // action
-    return {
-        type: GET_ITEMS,
-        payload: {Type, Month}
-    };
+    dispatch(setItemsLoading());
+    console.log("TYPE: ", type);
+    console.log("MONTH: ", month)
+    axios
+        .get('/api/foodItems', {type, month})
+        .then(res => 
+            dispatch({
+                type: GET_ITEMS,
+                payload: res.data
+            })
+        )
+    // return {
+    //     type: GET_ITEMS,
+    //     payload: {Type, Month}
+    // };
 };
 
-// export const fetchItems = () => {
-
-// }
+export const setItemsLoading = () => {
+    return {
+        type: ITEMS_LOADING
+    }
+}

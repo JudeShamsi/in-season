@@ -1,62 +1,10 @@
 import { v1 as uuid } from 'uuid';
-import { GET_ITEMS } from '../actions/types';
+import { GET_ITEMS, ITEMS_LOADING } from '../actions/types';
 
 // the reducer is the data I want put into the store
 const initialState = {
-    items: [
-        {
-            _id : uuid(),
-            Type: "Vegetable",
-            Name : "Brussel Sprouts",
-            January : "Y",
-            February: "N",
-            March: "N",
-            April: "N",
-            May: "N",
-            June: "N",
-            July: "N",
-            August: "N",
-            September: "Y",
-            October: "Y",
-            November: "Y",
-            December: "Y"
-        },
-        {
-            _id: uuid(),
-            Type: "Vegetable",
-            Name: "Mushroom",
-            January: "Y",
-            February: "Y",
-            March: "Y",
-            April: "N",
-            May: "N",
-            June: "N",
-            July: "N",
-            August: "N",
-            September: "N",
-            October: "N",
-            November: "Y",
-            December: "Y"
-        },
-        {
-            _id: uuid(),
-            Type: "Fruit",
-            Name: "Apple",
-            January: "Y",
-            February: "Y",
-            March: "Y",
-            April: "N",
-            May: "N",
-            June: "N",
-            July: "N",
-            August: "N",
-            September: "N",
-            October: "N",
-            November: "Y",
-            December: "Y"
-        }
-    ], 
-
+    items: [],
+    loading: false, 
     selectedItems: []
 }
 
@@ -69,7 +17,13 @@ export default function(state = initialState, action){
             console.log("New Items: " , newItems);
             return {    
                 ...state,            
-                selectedItems: newItems
+                selectedItems: newItems,
+                loading: false
+            }
+        case ITEMS_LOADING:
+            return {
+                ...state,
+                loading: true
             }
         default:
             return state
