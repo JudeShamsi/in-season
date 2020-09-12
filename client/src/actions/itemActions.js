@@ -1,7 +1,14 @@
 import { GET_ITEMS } from './types';
 
-export const getItems = () => {
+// action creater
+export const getItems = (Type, Month) => {
+    // action
     return {
-        type: GET_ITEMS
+        type: GET_ITEMS,
+        payload: {Type, Month}
     };
 };
+
+// export const fetchItems = () => {
+
+// }

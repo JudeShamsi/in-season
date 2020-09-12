@@ -8,33 +8,35 @@
 
  class ResultsList extends Component {
 
-    componentDidMount() {
-        this.props.getItems();
-    }
+    // componentDidMount() {
+    //     this.props.getItems(this.props.item.Type, this.props.item.Month);
+    // }
     
     render() {
-        const { items } = this.props.item;
+        //const { items } = this.props.item;
         return(
             <Container>
-                <ListGroup>
+                {/* <ListGroup>
                     {items.map(({Type, Name}) => (
-                        <ListGroupItem>
+                        <ListGroupItem key={items.id}>
                             Type: {Type}, Name: {Name}
-                        </ListGroupItem>
+                    </ListGroupItem>
                     ))}
-                </ListGroup>
+                </ListGroup> */}
             </Container>
         )
     }
  }
 
- ResultsList.propTypes = {
-     getItems: PropTypes.func.isRequired,
-     item: PropTypes.object.isRequired
- }
+//  ResultsList.propTypes = {
+//      getItems: PropTypes.func.isRequired,
+//      item: PropTypes.object.isRequired
+//  }
 
-const mapStateToProps = (state) => ({
-    item: state.item
-});
+// const mapStateToProps = (state) => ({
+//     item: state.item
+// });
 
- export default connect(mapStateToProps, { getItems })(ResultsList);
+
+// the container
+ export default ResultsList;//connect(mapStateToProps, { getItems })(ResultsList);
