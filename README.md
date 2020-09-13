@@ -12,5 +12,15 @@ Big thanks to my web-dev guru/friend @LaurynBassett (https://github.com/laurynba
 
 Enjoy!
 
+To run:
+
+1. Clone repo
+
+2. From root directory run "npm install"
+
+3. To run application "npm run dev"
+
+
+
 
 
