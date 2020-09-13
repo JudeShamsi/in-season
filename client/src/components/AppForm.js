@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText, Col, Container, ListGroup, ListGroupItem} from 'reactstrap';
 import { connect } from 'react-redux';
-import { getItems } from '../actions/itemActions';
+import { getItems, setSelectedItems } from '../actions/itemActions';
 import  PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 
@@ -12,6 +12,10 @@ class AppForm extends Component {
         selectType: '',
         selectMonth: ''
     };
+
+    componentDidMount() {
+        this.props.actions.getItems();
+    }
 
     onChangeType = (e) => {
         this.setState({ [e.target.name]: e.target.value });
@@ -26,13 +30,11 @@ class AppForm extends Component {
         
         this.setState({hasSelected: true});
 
-        const Result = {
-            selectType: this.state.selectType,
-            selectMonth: this.state.selectMonth
-        }
+        const {selectType, selectMonth} = this.state;
 
-        const items = this.props.getItems(Result.selectType, Result.selectMonth);
-        console.log(items);
+        const {setSelectedItems} = this.props.actions
+        setSelectedItems(selectMonth, selectType);
+
     };
 
     render() {
@@ -113,7 +115,9 @@ function mapStateToProps(state){
 
 
 function matchDispatchToProps(dispatch){
-    return bindActionCreators({getItems: getItems}, dispatch);
+    return {
+        actions: bindActionCreators({getItems: getItems, setSelectedItems: setSelectedItems}, dispatch)
+    };
 }
 
 

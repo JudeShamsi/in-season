@@ -1,2 +1,3 @@
 export const GET_ITEMS = 'GET_ITEMS';
 export const ITEMS_LOADING = 'ITEMS_LOADING';
+export const SET_SELECTED_ITEMS = 'SET_SELECTED_ITEMS';

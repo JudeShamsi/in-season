@@ -1,31 +1,32 @@
 import axios from 'axios';
-import { GET_ITEMS, ITEMS_LOADING } from './types';
+import { GET_ITEMS, ITEMS_LOADING, SET_SELECTED_ITEMS } from './types';
 
-// action creater
-export const getItems = (type, month) => dispatch => {
+// thunk creater
+export const getItems = () => dispatch => {
     // action
     dispatch(setItemsLoading());
-    console.log("TYPE: ", type);
-    console.log("MONTH: ", month)
+
     axios
-        .get('/api/foodItems', {
-            "type": "type",
-            "month": "month"
-        })
-        .then(res => 
+        .get('/api/foodItems')
+        .then(res => {
             dispatch({
                 type: GET_ITEMS,
                 payload: res.data
             })
+        }
         )
-    // return {
-    //     type: GET_ITEMS,
-    //     payload: {Type, Month}
-    // };
 };
 
 export const setItemsLoading = () => {
     return {
         type: ITEMS_LOADING
     }
+}
+
+export const setSelectedItems = (month, type) => dispatch => {
+    console.log("YOU BETTER BE CALLED: ", month, type);
+    dispatch({
+        type: SET_SELECTED_ITEMS,
+        payload: {type, month}
+    });
 }

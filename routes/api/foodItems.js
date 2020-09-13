@@ -8,8 +8,12 @@ const foodItem = require('../../models/foodItem');
 //@desc     Get All foodItems
 //@access   Public
 router.get('/', (req, res) => {
-    foodItem.find({Type: "Vegetable"})
-        .then(foodItems => res.json(foodItems))
+    foodItem.find()
+        .then(result => {
+            res.json(result)
+
+        })
+        .catch(err => console.log(err))
 });
 
 
