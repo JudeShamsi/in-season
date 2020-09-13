@@ -4,7 +4,7 @@ in-season is a full stack web application built with the MERN stack (MongoDB, Ex
 
 This was my first attempt working with this stack and I loved every high (and oddly, ever low too)!
 
-Sustainability is a big passion of mine and eating local makes a difference when it comes to reducing your carbon footprint!
+Sustainability is a big passion of mine and eating local makes a difference when it comes to reducing your carbon footprint.
 
 In-Season allows you to find out what local foods (Vegetables, Fruits, Herbs, Seafood) in BC are in season based on the month. 
 
