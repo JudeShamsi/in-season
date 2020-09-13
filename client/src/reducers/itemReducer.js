@@ -3,7 +3,9 @@ import { GET_ITEMS, ITEMS_LOADING } from '../actions/types';
 
 // the reducer is the data I want put into the store
 const initialState = {
-    items: [],
+    items: [
+        
+    ],
     loading: false, 
     selectedItems: []
 }

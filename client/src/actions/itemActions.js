@@ -8,7 +8,10 @@ export const getItems = (type, month) => dispatch => {
     console.log("TYPE: ", type);
     console.log("MONTH: ", month)
     axios
-        .get('/api/foodItems', {type, month})
+        .get('/api/foodItems', {
+            "type": "type",
+            "month": "month"
+        })
         .then(res => 
             dispatch({
                 type: GET_ITEMS,
