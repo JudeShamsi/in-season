@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText, Col, Container, ListGroup, ListGroupItem} from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Col, Container, ListGroupItem} from 'reactstrap';
 import { connect } from 'react-redux';
 import { getItems, setSelectedItems } from '../actions/itemActions';
 import  PropTypes from 'prop-types';
@@ -55,7 +55,6 @@ class AppForm extends Component {
                             <option>Fruit</option>
                             <option>Herbs</option>
                             <option>Seafood</option>
-                            <option>Meat/Dairy</option>
                     </Input>
                 </FormGroup>
                 </Col>
@@ -88,7 +87,7 @@ class AppForm extends Component {
                 <Col>
                     <div>
                         {hasSelected ? (selectedItems.length ? (selectedItems.map(item => (
-                            <ListGroupItem key={item._id}>
+                            <ListGroupItem className="result-clr" key={item._id}>
                                 {item.Name}    
                             </ListGroupItem>
                         ))) : <div>No Matching Items</div>
@@ -102,7 +101,7 @@ class AppForm extends Component {
 };
 
 AppForm.propTypes = {
-    getItems: PropTypes.func.isRequired,
+    //getItems: PropTypes.func.isRequired,
     item: PropTypes.object.isRequired
 }
 

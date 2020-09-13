@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import AppNavbar from './components/AppNavbar';
 import AppForm from './components/AppForm';
-import ResultsList from './components/ResultsList';
 import { Container } from 'reactstrap';
 
 import { Provider } from 'react-redux';
@@ -18,7 +17,6 @@ class App extends Component {
           <AppNavbar />
           <Container>
             <AppForm />
-            <ResultsList />
           </Container>
       </div>
       </Provider>

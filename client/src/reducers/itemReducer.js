@@ -1,4 +1,3 @@
-import { v1 as uuid } from 'uuid';
 import { GET_ITEMS, ITEMS_LOADING, SET_SELECTED_ITEMS } from '../actions/types';
 
 // the reducer is the data I want put into the store
@@ -21,9 +20,7 @@ export default function(state = initialState, action){
                 loading: true
             }
         case SET_SELECTED_ITEMS:
-            console.log("Action: ", action);
             const newItems = state.items.filter(item => item.Type === action.payload.type && item[action.payload.month] === "Y")
-            console.log("New Items: " , newItems);
             return {    
                 ...state,            
                 selectedItems: newItems,
