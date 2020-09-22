@@ -20,6 +20,7 @@ To run:
 
 3. From root directory run application using 'npm run dev'
 
+To preview: https://drive.google.com/drive/folders/1qQKlBZgWuiNmTJXg0A5KykaU3r6rcT_u?usp=sharing
 
 
 
