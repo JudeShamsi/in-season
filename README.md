@@ -16,9 +16,13 @@ To run:
 
 1. Clone repo
 
-2. From root directory run "npm install"
+2. From root directory run "npm install" to install server-side dependencies
 
-3. To run application "npm run dev"
+3. Cd client
+
+4. run "npm install" to install client-side dependencies
+
+5. To root folder run application "npm run dev"
 
 
 
