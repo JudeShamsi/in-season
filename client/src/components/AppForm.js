@@ -9,8 +9,8 @@ class AppForm extends Component {
 
     state = {
         hasSelected: false,
-        selectType: '',
-        selectMonth: ''
+        selectType: 'Vegetable',
+        selectMonth: 'January'
     };
 
     componentDidMount() {
