@@ -18,7 +18,7 @@ To run:
 
 2. From root directory run 'npm i' to install dependencies
 
-3. From root folder run application using 'npm run dev'
+3. From root directory run application using 'npm run dev'
 
 
 
